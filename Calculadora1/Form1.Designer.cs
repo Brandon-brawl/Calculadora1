@@ -436,7 +436,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lime;
-            this.ClientSize = new System.Drawing.Size(549, 517);
+            this.ClientSize = new System.Drawing.Size(535, 517);
             this.Controls.Add(this.btncosh);
             this.Controls.Add(this.btntanh);
             this.Controls.Add(this.btnexp);
