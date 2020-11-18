@@ -21,10 +21,9 @@ namespace Calculadora1
             InitializeComponent();
         }
 
-  
-
         private void Mimetodo_Click(object sender, EventArgs e)
         {
+            double resultado;
             string textoboton = ((Button)sender).Text;
            
             switch (textoboton)
@@ -74,10 +73,113 @@ namespace Calculadora1
                     {
                         break;
                     }
-                    operacion = textoboton;
+                    //operacion = textoboton;
                     valor1 = double.Parse(LBLNumeros.Text);
-                    LBLNumeros.Text = "";
+                    resultado = Math.Sqrt(valor1);
+                    LBLNumeros.Text = resultado + "";
                     break;
+                case "Sin":
+                    if (LBLNumeros.Text == "")
+                    {
+                        break;
+                    }
+                    //operacion = textoboton;
+                    valor1 = double.Parse(LBLNumeros.Text);
+                    resultado = Math.Sin(valor1);
+                    LBLNumeros.Text = resultado + "";
+                    break;
+                case "Cos":
+                    if (LBLNumeros.Text == "")
+                    {
+                        break;
+                    }
+                    //operacion = textoboton;
+                    valor1 = double.Parse(LBLNumeros.Text);
+                    resultado = Math.Cos(valor1);
+                    LBLNumeros.Text = resultado + "";
+                    break;
+                case "Tan":
+                    if (LBLNumeros.Text == "")
+                    {
+                        break;
+                    }
+                    //operacion = textoboton;
+                    valor1 = double.Parse(LBLNumeros.Text);
+                    resultado = Math.Tan(valor1);
+                    LBLNumeros.Text = resultado + "";
+                    break;
+                case "Log":
+                    if (LBLNumeros.Text == "")
+                    {
+                        break;
+                    }
+                    //operacion = textoboton;
+                    valor1 = double.Parse(LBLNumeros.Text);
+                    resultado = Math.Log(valor1);
+                    LBLNumeros.Text = resultado + "";
+                    break;
+                case "Abs":
+                    if (LBLNumeros.Text == "")
+                    {
+                        break;
+                    }
+                    //operacion = textoboton;
+                    valor1 = double.Parse(LBLNumeros.Text);
+                    resultado = Math.Abs(valor1);
+                    LBLNumeros.Text = resultado + "";
+                    break;
+                case "Round":
+                    if (LBLNumeros.Text == "")
+                    {
+                        break;
+                    }
+                    //operacion = textoboton;
+                    valor1 = double.Parse(LBLNumeros.Text);
+                    resultado = Math.Round(valor1);
+                    LBLNumeros.Text = resultado + "";
+                    break;
+                case "Exp":
+                    if (LBLNumeros.Text == "")
+                    {
+                        break;
+                    }
+                    //operacion = textoboton;
+                    valor1 = double.Parse(LBLNumeros.Text);
+                    resultado = Math.Exp(valor1);
+                    LBLNumeros.Text = resultado + "";
+                    break;
+                case "Truncate":
+                    if (LBLNumeros.Text == "")
+                    {
+                        break;
+                    }
+                    //operacion = textoboton;
+                    valor1 = double.Parse(LBLNumeros.Text);
+                    resultado = Math.Truncate(valor1);
+                    LBLNumeros.Text = resultado + "";
+                    break;
+                case "Tanh":
+                    if (LBLNumeros.Text == "")
+                    {
+                        break;
+                    }
+                    //operacion = textoboton;
+                    valor1 = double.Parse(LBLNumeros.Text);
+                    resultado = Math.Tanh(valor1);
+                    LBLNumeros.Text = resultado + "";
+                    break;
+                case "Cosh":
+                    if (LBLNumeros.Text == "")
+                    {
+                        break;
+                    }
+                    //operacion = textoboton;
+                    valor1 = double.Parse(LBLNumeros.Text);
+                    resultado = Math.Cosh(valor1);
+                    LBLNumeros.Text = resultado + "";
+                    break;
+            
+
 
                 case "=":
                     if (LBLNumeros.Text =="")
@@ -102,10 +204,10 @@ namespace Calculadora1
                             valor2 = double.Parse(LBLNumeros.Text);
                             LBLNumeros.Text = (valor1 / valor2) + "";
                             break;
-                        case "Raiz":
-                            //valor1 = double.Parse(LBLNumeros.Text);
-                            LBLNumeros.Text = Math.Sqrt(valor1).ToString();
-                            break;
+                        //case "Raiz":
+                        //    //valor1 = double.Parse(LBLNumeros.Text);
+                        //    LBLNumeros.Text = Math.Sqrt(valor1).ToString();
+                        //    break;
 
                     }
                     

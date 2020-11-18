@@ -47,13 +47,24 @@
             this.btndivision = new System.Windows.Forms.Button();
             this.btnborrar = new System.Windows.Forms.Button();
             this.BtnRaiz = new System.Windows.Forms.Button();
+            this.btnsin = new System.Windows.Forms.Button();
+            this.btncos = new System.Windows.Forms.Button();
+            this.btnTan = new System.Windows.Forms.Button();
+            this.btnLog = new System.Windows.Forms.Button();
+            this.btnAbs = new System.Windows.Forms.Button();
+            this.btnround = new System.Windows.Forms.Button();
+            this.btnTruncate = new System.Windows.Forms.Button();
+            this.btnexp = new System.Windows.Forms.Button();
+            this.btntanh = new System.Windows.Forms.Button();
+            this.btncosh = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BTNCero
             // 
-            this.BTNCero.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.BTNCero.BackColor = System.Drawing.Color.Black;
             this.BTNCero.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNCero.Location = new System.Drawing.Point(27, 359);
+            this.BTNCero.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BTNCero.Location = new System.Drawing.Point(33, 392);
             this.BTNCero.Name = "BTNCero";
             this.BTNCero.Size = new System.Drawing.Size(146, 70);
             this.BTNCero.TabIndex = 0;
@@ -63,19 +74,21 @@
             // 
             // LBLNumeros
             // 
-            this.LBLNumeros.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.LBLNumeros.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.LBLNumeros.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LBLNumeros.Location = new System.Drawing.Point(21, 9);
+            this.LBLNumeros.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.LBLNumeros.Location = new System.Drawing.Point(27, 32);
             this.LBLNumeros.Name = "LBLNumeros";
-            this.LBLNumeros.Size = new System.Drawing.Size(314, 43);
+            this.LBLNumeros.Size = new System.Drawing.Size(490, 43);
             this.LBLNumeros.TabIndex = 1;
             this.LBLNumeros.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // BTNuno
             // 
-            this.BTNuno.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.BTNuno.BackColor = System.Drawing.Color.Black;
             this.BTNuno.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNuno.Location = new System.Drawing.Point(27, 283);
+            this.BTNuno.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BTNuno.Location = new System.Drawing.Point(33, 316);
             this.BTNuno.Name = "BTNuno";
             this.BTNuno.Size = new System.Drawing.Size(70, 70);
             this.BTNuno.TabIndex = 2;
@@ -85,9 +98,10 @@
             // 
             // BTNdos
             // 
-            this.BTNdos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.BTNdos.BackColor = System.Drawing.Color.Black;
             this.BTNdos.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNdos.Location = new System.Drawing.Point(103, 283);
+            this.BTNdos.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BTNdos.Location = new System.Drawing.Point(109, 316);
             this.BTNdos.Name = "BTNdos";
             this.BTNdos.Size = new System.Drawing.Size(70, 70);
             this.BTNdos.TabIndex = 3;
@@ -97,9 +111,10 @@
             // 
             // BTNtres
             // 
-            this.BTNtres.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.BTNtres.BackColor = System.Drawing.Color.Black;
             this.BTNtres.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNtres.Location = new System.Drawing.Point(179, 283);
+            this.BTNtres.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BTNtres.Location = new System.Drawing.Point(185, 316);
             this.BTNtres.Name = "BTNtres";
             this.BTNtres.Size = new System.Drawing.Size(70, 70);
             this.BTNtres.TabIndex = 4;
@@ -109,9 +124,10 @@
             // 
             // BTNseis
             // 
-            this.BTNseis.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.BTNseis.BackColor = System.Drawing.Color.Black;
             this.BTNseis.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNseis.Location = new System.Drawing.Point(177, 207);
+            this.BTNseis.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BTNseis.Location = new System.Drawing.Point(183, 240);
             this.BTNseis.Name = "BTNseis";
             this.BTNseis.Size = new System.Drawing.Size(70, 70);
             this.BTNseis.TabIndex = 5;
@@ -121,9 +137,10 @@
             // 
             // BTNcinco
             // 
-            this.BTNcinco.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.BTNcinco.BackColor = System.Drawing.Color.Black;
             this.BTNcinco.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNcinco.Location = new System.Drawing.Point(101, 207);
+            this.BTNcinco.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BTNcinco.Location = new System.Drawing.Point(107, 240);
             this.BTNcinco.Name = "BTNcinco";
             this.BTNcinco.Size = new System.Drawing.Size(70, 70);
             this.BTNcinco.TabIndex = 6;
@@ -133,9 +150,10 @@
             // 
             // BTNcuatro
             // 
-            this.BTNcuatro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.BTNcuatro.BackColor = System.Drawing.Color.Black;
             this.BTNcuatro.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNcuatro.Location = new System.Drawing.Point(25, 207);
+            this.BTNcuatro.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BTNcuatro.Location = new System.Drawing.Point(31, 240);
             this.BTNcuatro.Name = "BTNcuatro";
             this.BTNcuatro.Size = new System.Drawing.Size(70, 70);
             this.BTNcuatro.TabIndex = 7;
@@ -145,9 +163,10 @@
             // 
             // BTNsiete
             // 
-            this.BTNsiete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.BTNsiete.BackColor = System.Drawing.Color.Black;
             this.BTNsiete.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNsiete.Location = new System.Drawing.Point(25, 131);
+            this.BTNsiete.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BTNsiete.Location = new System.Drawing.Point(31, 164);
             this.BTNsiete.Name = "BTNsiete";
             this.BTNsiete.Size = new System.Drawing.Size(70, 70);
             this.BTNsiete.TabIndex = 8;
@@ -157,9 +176,10 @@
             // 
             // BTNocho
             // 
-            this.BTNocho.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.BTNocho.BackColor = System.Drawing.Color.Black;
             this.BTNocho.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNocho.Location = new System.Drawing.Point(101, 131);
+            this.BTNocho.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BTNocho.Location = new System.Drawing.Point(107, 164);
             this.BTNocho.Name = "BTNocho";
             this.BTNocho.Size = new System.Drawing.Size(70, 70);
             this.BTNocho.TabIndex = 9;
@@ -169,9 +189,10 @@
             // 
             // BTNnueve
             // 
-            this.BTNnueve.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.BTNnueve.BackColor = System.Drawing.Color.Black;
             this.BTNnueve.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNnueve.Location = new System.Drawing.Point(177, 131);
+            this.BTNnueve.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BTNnueve.Location = new System.Drawing.Point(183, 164);
             this.BTNnueve.Name = "BTNnueve";
             this.BTNnueve.Size = new System.Drawing.Size(70, 70);
             this.BTNnueve.TabIndex = 10;
@@ -181,9 +202,10 @@
             // 
             // Btnresta
             // 
-            this.Btnresta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.Btnresta.BackColor = System.Drawing.Color.Black;
             this.Btnresta.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btnresta.Location = new System.Drawing.Point(255, 131);
+            this.Btnresta.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Btnresta.Location = new System.Drawing.Point(261, 164);
             this.Btnresta.Name = "Btnresta";
             this.Btnresta.Size = new System.Drawing.Size(70, 70);
             this.Btnresta.TabIndex = 11;
@@ -193,9 +215,10 @@
             // 
             // Bntresultado
             // 
-            this.Bntresultado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.Bntresultado.BackColor = System.Drawing.Color.Black;
             this.Bntresultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Bntresultado.Location = new System.Drawing.Point(255, 283);
+            this.Bntresultado.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Bntresultado.Location = new System.Drawing.Point(261, 316);
             this.Bntresultado.Name = "Bntresultado";
             this.Bntresultado.Size = new System.Drawing.Size(70, 146);
             this.Bntresultado.TabIndex = 12;
@@ -205,9 +228,10 @@
             // 
             // Btnpunto
             // 
-            this.Btnpunto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.Btnpunto.BackColor = System.Drawing.Color.Black;
             this.Btnpunto.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btnpunto.Location = new System.Drawing.Point(179, 359);
+            this.Btnpunto.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Btnpunto.Location = new System.Drawing.Point(185, 392);
             this.Btnpunto.Name = "Btnpunto";
             this.Btnpunto.Size = new System.Drawing.Size(70, 70);
             this.Btnpunto.TabIndex = 13;
@@ -217,9 +241,10 @@
             // 
             // bntsuma
             // 
-            this.bntsuma.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.bntsuma.BackColor = System.Drawing.Color.Black;
             this.bntsuma.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bntsuma.Location = new System.Drawing.Point(255, 207);
+            this.bntsuma.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.bntsuma.Location = new System.Drawing.Point(261, 240);
             this.bntsuma.Name = "bntsuma";
             this.bntsuma.Size = new System.Drawing.Size(70, 70);
             this.bntsuma.TabIndex = 14;
@@ -229,9 +254,10 @@
             // 
             // btnmultiplicacion
             // 
-            this.btnmultiplicacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnmultiplicacion.BackColor = System.Drawing.Color.Black;
             this.btnmultiplicacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnmultiplicacion.Location = new System.Drawing.Point(177, 55);
+            this.btnmultiplicacion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnmultiplicacion.Location = new System.Drawing.Point(183, 88);
             this.btnmultiplicacion.Name = "btnmultiplicacion";
             this.btnmultiplicacion.Size = new System.Drawing.Size(70, 70);
             this.btnmultiplicacion.TabIndex = 15;
@@ -241,9 +267,10 @@
             // 
             // btndivision
             // 
-            this.btndivision.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btndivision.BackColor = System.Drawing.Color.Black;
             this.btndivision.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btndivision.Location = new System.Drawing.Point(255, 55);
+            this.btndivision.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btndivision.Location = new System.Drawing.Point(261, 88);
             this.btndivision.Name = "btndivision";
             this.btndivision.Size = new System.Drawing.Size(70, 70);
             this.btndivision.TabIndex = 16;
@@ -253,9 +280,10 @@
             // 
             // btnborrar
             // 
-            this.btnborrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnborrar.BackColor = System.Drawing.Color.Black;
             this.btnborrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnborrar.Location = new System.Drawing.Point(27, 55);
+            this.btnborrar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnborrar.Location = new System.Drawing.Point(33, 90);
             this.btnborrar.Name = "btnborrar";
             this.btnborrar.Size = new System.Drawing.Size(70, 70);
             this.btnborrar.TabIndex = 17;
@@ -265,22 +293,160 @@
             // 
             // BtnRaiz
             // 
-            this.BtnRaiz.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.BtnRaiz.BackColor = System.Drawing.Color.Black;
             this.BtnRaiz.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnRaiz.Location = new System.Drawing.Point(101, 55);
+            this.BtnRaiz.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BtnRaiz.Location = new System.Drawing.Point(109, 88);
             this.BtnRaiz.Name = "BtnRaiz";
-            this.BtnRaiz.Size = new System.Drawing.Size(70, 70);
+            this.BtnRaiz.Size = new System.Drawing.Size(70, 72);
             this.BtnRaiz.TabIndex = 18;
             this.BtnRaiz.Text = "Raiz";
             this.BtnRaiz.UseVisualStyleBackColor = false;
             this.BtnRaiz.Click += new System.EventHandler(this.Mimetodo_Click);
             // 
+            // btnsin
+            // 
+            this.btnsin.BackColor = System.Drawing.Color.Black;
+            this.btnsin.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnsin.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnsin.Location = new System.Drawing.Point(337, 88);
+            this.btnsin.Name = "btnsin";
+            this.btnsin.Size = new System.Drawing.Size(70, 72);
+            this.btnsin.TabIndex = 19;
+            this.btnsin.Text = "Sin";
+            this.btnsin.UseVisualStyleBackColor = false;
+            this.btnsin.Click += new System.EventHandler(this.Mimetodo_Click);
+            // 
+            // btncos
+            // 
+            this.btncos.BackColor = System.Drawing.Color.Black;
+            this.btncos.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncos.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btncos.Location = new System.Drawing.Point(337, 166);
+            this.btncos.Name = "btncos";
+            this.btncos.Size = new System.Drawing.Size(70, 70);
+            this.btncos.TabIndex = 20;
+            this.btncos.Text = "Cos";
+            this.btncos.UseVisualStyleBackColor = false;
+            this.btncos.Click += new System.EventHandler(this.Mimetodo_Click);
+            // 
+            // btnTan
+            // 
+            this.btnTan.BackColor = System.Drawing.Color.Black;
+            this.btnTan.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTan.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnTan.Location = new System.Drawing.Point(337, 242);
+            this.btnTan.Name = "btnTan";
+            this.btnTan.Size = new System.Drawing.Size(70, 70);
+            this.btnTan.TabIndex = 21;
+            this.btnTan.Text = "Tan";
+            this.btnTan.UseVisualStyleBackColor = false;
+            this.btnTan.Click += new System.EventHandler(this.Mimetodo_Click);
+            // 
+            // btnLog
+            // 
+            this.btnLog.BackColor = System.Drawing.Color.Black;
+            this.btnLog.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLog.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnLog.Location = new System.Drawing.Point(337, 318);
+            this.btnLog.Name = "btnLog";
+            this.btnLog.Size = new System.Drawing.Size(70, 70);
+            this.btnLog.TabIndex = 22;
+            this.btnLog.Text = "Log";
+            this.btnLog.UseVisualStyleBackColor = false;
+            this.btnLog.Click += new System.EventHandler(this.Mimetodo_Click);
+            // 
+            // btnAbs
+            // 
+            this.btnAbs.BackColor = System.Drawing.Color.Black;
+            this.btnAbs.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAbs.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnAbs.Location = new System.Drawing.Point(337, 392);
+            this.btnAbs.Name = "btnAbs";
+            this.btnAbs.Size = new System.Drawing.Size(70, 70);
+            this.btnAbs.TabIndex = 23;
+            this.btnAbs.Text = "Abs";
+            this.btnAbs.UseVisualStyleBackColor = false;
+            this.btnAbs.Click += new System.EventHandler(this.Mimetodo_Click);
+            // 
+            // btnround
+            // 
+            this.btnround.BackColor = System.Drawing.Color.Black;
+            this.btnround.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnround.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnround.Location = new System.Drawing.Point(413, 88);
+            this.btnround.Name = "btnround";
+            this.btnround.Size = new System.Drawing.Size(104, 73);
+            this.btnround.TabIndex = 24;
+            this.btnround.Text = "Round";
+            this.btnround.UseVisualStyleBackColor = false;
+            this.btnround.Click += new System.EventHandler(this.Mimetodo_Click);
+            // 
+            // btnTruncate
+            // 
+            this.btnTruncate.BackColor = System.Drawing.Color.Black;
+            this.btnTruncate.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTruncate.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnTruncate.Location = new System.Drawing.Point(413, 392);
+            this.btnTruncate.Name = "btnTruncate";
+            this.btnTruncate.Size = new System.Drawing.Size(104, 70);
+            this.btnTruncate.TabIndex = 25;
+            this.btnTruncate.Text = "Truncate";
+            this.btnTruncate.UseVisualStyleBackColor = false;
+            // 
+            // btnexp
+            // 
+            this.btnexp.BackColor = System.Drawing.Color.Black;
+            this.btnexp.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnexp.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnexp.Location = new System.Drawing.Point(413, 167);
+            this.btnexp.Name = "btnexp";
+            this.btnexp.Size = new System.Drawing.Size(104, 69);
+            this.btnexp.TabIndex = 26;
+            this.btnexp.Text = "Exp";
+            this.btnexp.UseVisualStyleBackColor = false;
+            this.btnexp.Click += new System.EventHandler(this.Mimetodo_Click);
+            // 
+            // btntanh
+            // 
+            this.btntanh.BackColor = System.Drawing.Color.Black;
+            this.btntanh.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btntanh.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btntanh.Location = new System.Drawing.Point(413, 242);
+            this.btntanh.Name = "btntanh";
+            this.btntanh.Size = new System.Drawing.Size(104, 70);
+            this.btntanh.TabIndex = 27;
+            this.btntanh.Text = "Tanh";
+            this.btntanh.UseVisualStyleBackColor = false;
+            // 
+            // btncosh
+            // 
+            this.btncosh.BackColor = System.Drawing.Color.Black;
+            this.btncosh.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncosh.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btncosh.Location = new System.Drawing.Point(413, 316);
+            this.btncosh.Name = "btncosh";
+            this.btncosh.Size = new System.Drawing.Size(104, 70);
+            this.btncosh.TabIndex = 28;
+            this.btncosh.Text = "Cosh";
+            this.btncosh.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Aqua;
-            this.ClientSize = new System.Drawing.Size(347, 450);
+            this.BackColor = System.Drawing.Color.Lime;
+            this.ClientSize = new System.Drawing.Size(549, 517);
+            this.Controls.Add(this.btncosh);
+            this.Controls.Add(this.btntanh);
+            this.Controls.Add(this.btnexp);
+            this.Controls.Add(this.btnTruncate);
+            this.Controls.Add(this.btnround);
+            this.Controls.Add(this.btnAbs);
+            this.Controls.Add(this.btnLog);
+            this.Controls.Add(this.btnTan);
+            this.Controls.Add(this.btncos);
+            this.Controls.Add(this.btnsin);
             this.Controls.Add(this.BtnRaiz);
             this.Controls.Add(this.btnborrar);
             this.Controls.Add(this.btndivision);
@@ -327,6 +493,16 @@
         private System.Windows.Forms.Button btndivision;
         private System.Windows.Forms.Button btnborrar;
         private System.Windows.Forms.Button BtnRaiz;
+        private System.Windows.Forms.Button btnsin;
+        private System.Windows.Forms.Button btncos;
+        private System.Windows.Forms.Button btnTan;
+        private System.Windows.Forms.Button btnLog;
+        private System.Windows.Forms.Button btnAbs;
+        private System.Windows.Forms.Button btnround;
+        private System.Windows.Forms.Button btnTruncate;
+        private System.Windows.Forms.Button btnexp;
+        private System.Windows.Forms.Button btntanh;
+        private System.Windows.Forms.Button btncosh;
     }
 }
 
